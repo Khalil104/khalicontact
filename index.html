@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="KhaliContact" description = "KhaliContact : votre plateforme pour ajouter le préfixe '01' à vos numéros de téléphone.">
+  <meta name="keywords"  content="KhaliContact, Facebook, Abdoul Rachid, BISSARE">
+  <meta name="author" content="Abdoul Rachid BISSARE">
+  <title>KhaliContact | Accueil</title>
+  <link rel="icon" href="image/logo_kc.png" type="image/png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">KhaliContact</a>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="main-content container text-center animate-on-scroll">
+    <h2 class="mb-4 h6"><hr>Au Bénin, le plan de numérotation est passé de 08 chiffres à 10 chiffres. 
+      Convertissez vos contacts en toute sécurité et simplicité. <hr> 
+      Cela consiste à ajout le préfixe "<span class="fw-bold">01</span>" à tous vos numéros de téléphone.
+      Faites le avec notre application en toute simplicité.
+    </h2><hr>
+    <!-- Case à cocher pour comment ça marche -->
+    <div class="form-check form-switch mt-4 d-flex justify-content-center">
+      <input type="checkbox" class="form-check-input" id="how-it-works-toggle">   
+      <label class="form-check-label mx-1 fw-bold" for="how-it-works-toggle">Comment ça marche</label>
+    </div>
+      <!-- Description masquée -->
+      <div id="how-it-works-description" class="mt-3 animate-on-scroll" style="display: none;">
+          <div class="card shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Comment utiliser KhaliContact</h5>
+                  <p class="card-text">
+                  <strong>Exporter vos contacts :</strong><br>
+                  <u>Depuis un téléphone Android :</u><br>
+                  <span class="fw-bold">1.</span> Ouvrez l'application "Contacts".<br>
+                  <span class="fw-bold">2.</span> Accédez aux options (généralement via un menu ou trois points en haut à droite).<br>
+                  <span class="fw-bold">3.</span> Sélectionnez "Exporter" et choisissez le format CSV ou VCF.<br>
+                  <span class="fw-bold">4.</span> Enregistrez le fichier sur votre appareil.<br><br>
+          
+                  <u>Depuis un iPhone :</u><br>
+                  <span class="fw-bold">1.</span> Ouvrez l'application "Contacts".<br>
+                  <span class="fw-bold">2.</span> Utilisez iCloud pour exporter vos contacts au format VCF :<br>
+                  <span class="fw-bold">-</span>  Connectez-vous à iCloud.com.<br>
+                  <span class="fw-bold">-</span>  Allez dans "Contacts".<br>
+                  <span class="fw-bold">-</span>  Sélectionnez vos contacts et exportez-les sous forme de fichier VCF.<br><br>
+          
+                  <strong>Utilisation de KhaliContact :</strong><br>
+                  <span class="fw-bold">1.</span> Téléversez un fichier CSV ou VCF contenant vos contacts.<br>
+                  <span class="fw-bold">2.</span> L'application convertit les numéros en ajoutant le préfixe approprié.<br>
+                  <span class="fw-bold">3.</span> Téléchargez le fichier converti dans le même format que l'original.<br>
+                  Profitez d'une gestion rapide et sécurisée de vos contacts !
+                  </p>
+              </div>
+          </div>
+      </div>
+      <form id="upload-form" class="card p-4 shadow-sm">
+          <div class="mb-3">
+              <label for="file-input" class="form-label">Téléverser un fichier CSV ou VCF :</label>
+              <input type="file" id="file-input" class="form-control" accept=".csv, .vcf" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Convertir</button>
+      </form>
+      <div id="result" class="mt-4"></div>
+  </div>
+  <footer class="footer bg-dark text-white text-center py-3 mt-5">
+      <p class="mb-0">&copy; 2025 KhaliContact. Tous droits réservés.</p>
+      <p class="mb-0">Créé par <a href="author.html">rhd_khalil</a></p>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/anime.js"></script>
+
+  <!-- by Abdoul Rachid BISSARE / +229 01 63 61 49 80 -->
+</body>
+</html>

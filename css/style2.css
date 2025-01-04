@@ -1,0 +1,56 @@
+  /* css file of author.html */
+  *{
+    font-family: 'PT', sans-serif;;
+  }
+  @font-face{
+    font-family: 'PT';
+    src: url('../font/PTSerif-Regular.ttf')
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    background-color: #f8f9fa;
+  }
+  .author-section {
+    margin-top: 50px;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .animate-on-scroll{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-out;
+  }
+  .animate-on-scroll.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+  .author-image {
+    max-width: 100%;
+    border-radius: 6%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .author-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  .author-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #6c757d;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #6c757d;
+  }
+  footer a:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+/* by Abdoul Rachid BISSARE / +229 01 63 61 49 80 */
