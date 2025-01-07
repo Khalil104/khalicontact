@@ -30,7 +30,7 @@
 
 ## Déploiement
 
-Vous pouvez tester l'application ici : [KhaliContact] *(https://khalil104.github.io/khalicontact)*
+Vous pouvez tester l'application ici : https://khalil104.github.io/khalicontact
 
 ## Créé par
 - **Nom** : Abdoul Rachid BISSARE  
